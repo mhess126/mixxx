@@ -10,7 +10,8 @@ NovationTwitch.led_brightness = 0x7F;
 NovationTwitch.led_blink_time = 200;
 
 /* Color LED Presets */
-NovationTwitch.led_colors = { "smallbtn":0x15, "red":0x16, "amber":0x4F, "green":0x7F };
+const NovationTwitch.led_colors = { "smallbtn":0x15, "red":0x16, "amber":0x4F, "green":0x7F };
+const NovationTwitch.touchstrip_mode = { };
 
 NovationTwitch.init = function(id) {
 
